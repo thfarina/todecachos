@@ -5,6 +5,8 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 300;
 }
 
 img {
@@ -42,6 +44,7 @@ header{
 .menu-nav li{
   padding: 1rem;
   color: #9767A9;
+  cursor: pointer;
 }
 .menu-nav li:hover{
   font-weight: 800;
@@ -49,10 +52,36 @@ header{
 .social-icons li{
   padding: .5rem;
   width: 30%;
+  cursor: pointer;
 }
 .search-input{
   border: 3px solid #9767A9;
   border-radius: 50px;
   padding: .3rem;
   color: #9767A9;
+}
+
+
+.cabeludo{
+  background-image: url("imgs/cabeludo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cabeludo h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 4rem;
+  text-align: left;
+}
+.cabeludo h3{
+  font-size: 2rem;
+}
+
+.naosei{
+  background-color: #9767A9;
 }
