@@ -28,6 +28,7 @@ header{
   background-color: #fff;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 .header-content{
   display: flex;
@@ -113,6 +114,8 @@ header{
 .card-list{
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  position: relative;
 }
 
 .card-list .card:nth-child(odd){
@@ -136,12 +139,14 @@ header{
   padding: 2rem;
 
 }
-.titulo-card{
-
-}
 .numero{
   font-size: 3rem;
 }
 .texto-card{
   margin-top: 1rem;
+}
+.fio-cabelo{
+  position: absolute;
+  right: 0;
+  bottom: 10%;
 }
