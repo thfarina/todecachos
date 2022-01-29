@@ -4,9 +4,9 @@
 <br>
 <h5>🕐 PROJECT STATUS</h5>
 <!-- ☑️⬛ -->
-<p>☑️ on going</p>
+<p>⬛ on going</p>
 <p>⬛ finished</p>
-<p>⬛ needs some bug fix</p>
+<p>☑️ needs some bug fix</p>
 <p>⬛ paused</p>
 <br>
 <h5>🌐 LINK TO WEBPAGE</h5>
